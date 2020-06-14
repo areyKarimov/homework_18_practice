@@ -1,0 +1,47 @@
+header.header#header
+    .header__bg
+        img(src="img/header/bg.jpg", alt="background")
+    .popUp.popUp-menu.js-popUp-menu
+        nav.menu
+            button.popUp__cancel.js-cancelMenu
+                span
+                span
+            button.popUp__lang ENG
+            ul.menu__list
+                li.menu__listItem
+                    a(href="#about") About Me
+                li.menu__listItem
+                    a(href="#expert") Services
+                li.menu__listItem
+                    a(href="#works") My Works
+                li.menu__listItem
+                    a(href="#clients") Clients
+            .menu__socials
+                a.menu__social(href="#")
+                a.menu__social(href="#")
+                a.menu__social(href="#")
+                a.menu__social(href="#")
+    .popUp.popUp-hireMe.js-popUp-hireMe
+        .hireMe
+            button.popUp__cancel.js-cancelHire
+                span
+                span
+            form.hireMe__form(action="")
+                h3.hireMe__title Hire Me
+                input.hireMe__input(type="text", name="name", placeholder="Your Name" required)
+                input.hireMe__input(type="email", name="email", placeholder="Your E-Mail" required)
+                textarea.hireMe__input(name="message", cols="30", rows="10", placeholder="Your Message" required)
+                input.hireMe__submit(type="submit" name="SEND MESSAGE")    
+    .container
+        button.burger.js-burger
+            span
+            span
+            span
+        .header__photo
+            .header__photoWrapper
+                img(src="img/header/photo.jpg", alt="photo")
+        h1.header__title free portfolio PSD template FOR GRAPHIC designerS
+        p.header__caption Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+        button.button.js-button hire me
+    a.header__down(href="#about")
+        span

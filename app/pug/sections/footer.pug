@@ -1,0 +1,18 @@
+footer.footer
+    .footer__bg
+        img(src="img/header/bg.jpg", alt="background")
+    .container
+        p.footer__text Need a graphic designer?
+            a(href="#header") Ready to work! 
+        button.button.js-button hire me
+        .popUp.popUp-hireMe.js-popUp-hireMe
+            .hireMe
+                button.popUp__cancel.js-cancelHire
+                    span
+                    span
+                form.hireMe__form(action="")
+                    h3.hireMe__title Hire Me
+                    input.hireMe__input(type="text", name="name", placeholder="Your Name" required)
+                    input.hireMe__input(type="email", name="email", placeholder="Your E-Mail" required)
+                    textarea.hireMe__input(name="message", cols="30", rows="10", placeholder="Your Message" required)
+                    input.hireMe__submit(type="submit" name="SEND MESSAGE")    
